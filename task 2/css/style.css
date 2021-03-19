@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.grid{
+	width: 100%;
+	height: 1000px;
+	margin-bottom: 200px;
+}
+.container{
+	width: 100%;
+	height:450px;
+	overflow:hidden;
+	margin-top: 100px;
+}
+.photo{
+	width: 100%;
+	height:380px;	
+}
+.text{
+	text-align: center;
+}
+.text h1
+{
+	 font-family: 'Work Sans', sans-serif;
+	 font-size: 40px;
+	 font-weight: 700px;
+	 Color:#171822;
+	 margin-top: 50px;
+}
+.text p{
+	 font-family: 'Work Sans', sans-serif;
+	 font-size: 18px;
+	 font-weight: 400px;
+	 Color:#6a6b7c;
+	 margin-top: 20px;
+}
+.split{
+	float:left;
+	width:20%;
+	height:450px;
+	overflow: hidden;
+	position: relative;	
+}
+.split img {
+	width:100%;
+	height:450px;
+}
+
+
+.split-icon a{
+	text-decoration: none;
+	display: inline-block;
+	color: #FFF;
+}
+                                                   /*hover icons*/
+.split-icon 
+{
+   border:1px solid transparent;
+   width: 160px;
+  height: 45px;
+ text-align: center;
+ background-image: linear-gradient(130deg,#ee8425,#f9488b );
+ border-radius: 0% 0% 5% 5% ;
+ position: absolute;
+ top: -55px;
+ right: 70px;
+transition: 1s transform;
+     }
+.split:hover .split-icon{
+     	transform: translate(-45);
+     	top:0px;
+     	right:70px;
+     }
+
+ .split-icon ul {
+     	display: inline-block;
+     }
+.split-icon li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 10px;
+	margin-left:11px;
+
+}
+.split-icon i{
+	font-size: 20px;
+}
+                                                 /*hover text*/
+.split-text{
+	width:200px;
+	height: 80px;
+	border: 1px solid transparent;
+	background-color: #FFF;
+	padding-top: 10px;
+	padding-left: 15px;
+	position: absolute;
+	bottom:30px;
+	right:400px;
+	transition: all .5s ease-out;
+
+}
+.split:hover .split-text{
+	transform: translateX(-180);
+	bottom:30px;
+	right:35px;
+}
+.split-text h3{
+ font-family: 'Work Sans', sans-serif;
+	 font-size: 20px;
+	 font-weight: 500px;
+	 Color:#171822;
+	 margin-bottom:5px;
+	 padding-right: 10px;
+
+
+}
+.split-text p{
+	 font-family: 'Work Sans', sans-serif;
+	 font-size: 16px;
+	 font-weight: 400px;
+	 Color:#f44949;
+	 margin-right: 10px;
+	
+
+}
